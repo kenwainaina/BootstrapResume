@@ -1,0 +1,137 @@
+/* Global styles */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+/* Link pseudo-classes styled for best practices */
+a:link, a:visited {
+  color: #EF233C; /* Red color for links */
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover, a:focus {
+  color: #D90429; /* Slightly darker red for hover/focus */
+  background-color: #f0f0f0; /* Light background on hover/focus */
+  text-decoration: none;
+}
+a:active {
+  color: #A5011D; /* Even darker red for active state */
+  background-color: #e0e0e0; /* Slightly darker background for active state */
+}
+
+h1, h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+
+.col-narrow {
+  width: 30%;
+  float: left;
+  min-height: 200px;
+}
+
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 200px;
+}
+
+/* Justify text in the introduction paragraph only */
+header .col-wide p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Header & Footer styles */
+header,
+footer {
+  background: #550015;
+  color: #FFF3C6;
+  
+}
+
+header{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+header h1, header h2 {
+  color: #EDF2F4;
+  margin: 0;
+  
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+.JMU {
+  padding-bottom: 10px;
+}
+
+/* Work Experience */
+.work {
+  background: #EDF2F4;
+  padding-top: 15px;
+  /* No text-align: justify here to avoid justifying work experience text */
+}
+
+/* Education */
+.education {
+  background: #6f001b;
+  color: #FFF3C6;
+}
+
+/* Skills and Certifications List Styling */
+.skills-list {
+  display: inline-block;
+  text-align: left;
+  list-style-type: disc; /* Ensures bullets are displayed */
+}
+
+/* Center the list in its container */
+.container .skills-list {
+  text-align: center;
+}
+
+/* List items styling */
+.skills-list li {
+  text-align: left; /* Ensures list items are left-aligned */
+}
