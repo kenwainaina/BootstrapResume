@@ -69,7 +69,7 @@ export default function Portfolio() {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-2xl opacity-20" />
             <img
-              src="https://sjc.microlink.io/f-RsyLAu0CWjRmn10rVIwndVNWRPxUppRkdR79sg_BtyjTCZy1oW-4Vpsx7hJJjBTM24rbi0vov2WRyoCwmaFw.jpeg"
+              src="/Professional-Pic.jpeg"
               alt="Profile"
               className="rounded-full w-64 h-64 mx-auto object-cover border-4 border-white/10"
             />
